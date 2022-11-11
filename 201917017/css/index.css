@@ -1,0 +1,39 @@
+
+.main .banner {
+    height: 630px;
+    background-image: url(../images/02.jpg);
+    background-repeat: no-repeat;
+
+}
+.winter{
+    text-align: center;
+    color: #fff;
+    margin: 30px 0;
+}
+.main .story {
+    position: relative;
+    height: 660px;
+    width: 100%;
+    background-color: rgb(241, 241, 241);
+}
+.main .story ul{
+    position: absolute;
+    width: 1140px;
+    height: 445px;
+    left: 50%;
+    top: 50%;
+    /* background-color: pink; */
+    transform: translate(-50%,-50%);
+}
+.main .story ul li{
+    float: left;
+}
+.main .story ul:first-child {
+    float: left;
+    background-color: orange;
+    
+} 
+.main .story ul:last-child{
+    background-color: pink;
+}
+/* ------------------------- */
